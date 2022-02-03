@@ -1,0 +1,29 @@
+html {
+  background-color: rgb(164, 224, 235);
+}
+
+#canvas1 {
+  background-color: #EA4456;
+  border-radius: 70px;
+  border: 35px solid rgba(73, 2, 0, 0.822);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+}
+.controls {
+  border-radius: 20px;
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.controls, select, option {
+  background-color: rgba(188, 221, 2, 0.438);
+  border-radius: 50px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
